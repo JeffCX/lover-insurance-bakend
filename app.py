@@ -21,10 +21,6 @@ def buy_insurance():
 def get_question():
     return "hi"
 
-@app.route('/select-question', methods=['GET'])
-def select_question():
-    return "hi"
-
 @app.route('/update-question', methods=['GET'])
 def update_question():
     return "hi"
